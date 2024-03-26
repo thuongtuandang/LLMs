@@ -8,5 +8,6 @@ You will find my toy projects on large language models (LLMs) in this page. Thos
 
 3. Vector databases search for texts and images. The project aim to develop sematic search tools for texts and images. For dataset with text metadata, I use Sentence Transformer to embbed the text field. For images, I use ResNet to extract image features. I then save vectors in Qdrant vector databases to perform vector search. Before running the notebooks, you would need Docker desktop ready and you can pull and run the Qdrant service with the following command
 
-    ```docker pull qdrant/qdrant
-    ```docker run -p 6333:6333 qdrant/qdrant```
+```docker
+docker pull qdrant/qdrant
+docker run -p 6333:6333 qdrant/qdrant
